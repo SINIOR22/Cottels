@@ -636,3 +636,47 @@ button {
     letter-spacing: 0em;
     color: #192252;
 }
+@media screen and (max-width: 1600px) {
+    .Hero {
+        width: 1440px;
+    }
+}
+@media screen and (max-width:1599px) {
+    .Hero {
+        width: 1200px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .Hero {
+        width: 1140px;
+    }
+    .HeroIntro {
+        width: 100%;
+      }
+    }
+
+@media screen and (max-width:1199px) {
+    .Hero {
+        width: 960px;
+        }
+        .HeroImr {
+            width: 45%;
+        }
+        }
+
+@media screen and (max-width:991px) {
+    .nav {
+        width: 720px;
+    }
+}
+@media screen and (max-width:767px) {
+    .nav {
+        width: 540px;
+    }
+}
+@media screen and (max-width:576px) {
+    .nav {
+        width: 300%;
+        padding: 35px;
+    }
+}
