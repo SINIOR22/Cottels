@@ -608,6 +608,7 @@ button {
     position: absolute;
     margin-left:1159px;
     margin-top: 120px;
+    max-width: 100%;
 }
 .Contact h5 {
     font-family: Inter;
