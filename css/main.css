@@ -2,8 +2,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     height: 5504px;
     max-width: 100%;
-   
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
     
 }
 button {
@@ -16,7 +17,6 @@ button {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    max-width: 100%;
 
 }
 .nav h2  {
@@ -276,6 +276,7 @@ button {
 }
 .Reservation {
     display: flex;
+    min-width: max-content;
 }
 .Reservation button {
     width:151px;
@@ -325,7 +326,8 @@ button {
 .ReservationCard {
     margin-left: 120px;
     margin-top: 88px;
-    width: 1440px;
+    justify-content: center;
+    max-width: max-content;
 }
 .ReservationCard img {
     padding-right: 24px;
@@ -355,7 +357,7 @@ button {
     font-size: 18px;
     margin-top: 16px;
     padding-right: 27px;
-    width:384px;
+    min-width: fit-content;
 
 }
 .Reservationliteltext {
@@ -516,7 +518,7 @@ button {
 }
 .seven {
     background-color: #0B265A;
-    width: 1440px;
+    max-width: 100%;
     height: 444px;
     margin-top:186px;
     display: flex;
