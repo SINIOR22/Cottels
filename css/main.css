@@ -15,7 +15,6 @@ button {
 .nav {
     font-family: 'Montserrat', sans-serif;
     height: 120px;
-    max-width: 1600px;
     display: flex;
     flex-wrap:wrap;
     
