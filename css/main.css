@@ -9,6 +9,9 @@ button {
     cursor: pointer;
     transition: 0.35s;
 }
+.container {
+ max-width: 1600px;
+}
 .nav {
     font-family: 'Montserrat', sans-serif;
     height: 120px;
