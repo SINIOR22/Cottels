@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     height: 5504px;
+    width: 1600px;
     max-width: 100%;
     justify-content: center;
     margin: 0px;
@@ -17,7 +18,7 @@ button {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-
+    min-width: 100%;
 }
 .nav h2  {
     font-size: 32px;
@@ -69,7 +70,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     height: 900px;
-    max-width: 100%;
+    max-width: 100%; 
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
@@ -121,6 +122,11 @@ button {
 }
 .HeroIntro button:hover {
     background-color:skyblue;
+}
+.HeroImg {
+    justify-content: left;
+    max-width: 100%;
+    min-width: 1140px;
 }
 
 .HeroOne {
@@ -296,17 +302,19 @@ button {
     font-weight:500;
     Line-height: 19px;
 }
-.ReservationText{
+.ReservationText1 {
     display: flex;
+    justify-content: center;
 }
 .ReservationText1 h2 {
-    margin-left: 496px;
     margin-top: 160px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     display: flex;
+    margin-left: 426px;
+   
 }
 .ReservationText2 p {
     font-family: 'Inter', sans-serif;
@@ -317,17 +325,16 @@ button {
     font-size: 18px;
     margin-top: 4px;
     margin-left: 426px;
-
     text-align: center;
-}
+}  
 .ReservationText2 {
-    display: flex;
+  display:flexbox;
 }
 .ReservationCard {
-    margin-left: 120px;
+    margin-left:220px;
     margin-top: 88px;
     justify-content: center;
-    max-width: max-content;
+    max-width: 100%;
 }
 .ReservationCard img {
     padding-right: 24px;
@@ -335,8 +342,8 @@ button {
 }
 .ReservationGrandtext {
     display: flex;
-    width: 1440px;
-
+    width: 1600px;
+    margin-left: 120px;
 }
 .ReservationGrandtext h2 {
     font-family: 'Montserrat', sans-serif;
@@ -345,7 +352,7 @@ button {
     font-size: 24px;
     margin-left: 120px;
     padding-right: 120px;
-    width: 171px;
+    
 
 }
 .Reservationliteltext p {
@@ -518,10 +525,10 @@ button {
 }
 .seven {
     background-color: #0B265A;
-    max-width: 100%;
     height: 444px;
     margin-top:186px;
     display: flex;
+    
 }
 .seven h2 {
     color: white;
