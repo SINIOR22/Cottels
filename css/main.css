@@ -123,6 +123,7 @@ button {
 }
 
 .HeroOne {
+    justify-content: left;
     display: flex;
     margin-left: 32px;
     margin-top: 40px;
