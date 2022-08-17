@@ -62,16 +62,13 @@ button {
 .nav button:hover {
     background-color:skyblue;
 }
-
 .Hero {
-   justify-content: center;
+    justify-content: center;
     height:845px;
     display: flex;
     flex-wrap: wrap;
     height: 900px;
     max-width: 100%; 
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
 }
 .HeroIntro h1 {
     display: block;
@@ -123,9 +120,9 @@ button {
     background-color:skyblue;
 }
 .HeroImg {
-    justify-content: left;
+    justify-content: right;
     max-width: 100%;
-    min-width: 1140px;
+    
 }
 
 .HeroOne {
@@ -155,16 +152,16 @@ button {
     height:588px;
     padding-right:24px;
 }
-.aboutUsOne img {
-    display: flex;
-    margin-left: 120px;
+.aboutUs img {
     margin-top:80px;
     flex-wrap:wrap;
+    width: 384px;
 }
 .aboutUs {
     display: flex;
     height: 736px;
     flex-wrap:wrap;
+    justify-content: center;
 }
 .aboutText h2 {
     display: flex;
