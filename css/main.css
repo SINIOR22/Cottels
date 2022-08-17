@@ -1,8 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     height: 5504px;
-    max-width: 1440px;
-    margin-left:80px;
+    max-width: 100%;
+   
     justify-content: center;
     
 }
@@ -22,9 +22,8 @@ button {
 .nav h2  {
     font-size: 32px;
     margin-top: 46px;
-    margin-left: 120px;
     margin-bottom: 35px;
-    margin-right: 343px;
+    margin-right: 443px;
     display: flex;
     color:  #192252;
     cursor: pointer;
