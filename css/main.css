@@ -63,10 +63,12 @@ button {
 }
 
 .Hero {
+   justify-content: center;
     height:845px;
     display: flex;
     flex-wrap: wrap;
     height: 900px;
+    width: 1600px;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
