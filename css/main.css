@@ -3,6 +3,7 @@ body {
     height: 5504px;
     max-width: 1600px;
     margin-left:80px;
+    justify-content: center;
 }
 
 button {
