@@ -9,16 +9,13 @@ button {
     cursor: pointer;
     transition: 0.35s;
 }
-.container {
- max-width: 1600px;
-}
 .nav {
     font-family: 'Montserrat', sans-serif;
     height: 120px;
-    width: max-content;
+    width: 1600px;
     display: flex;
     flex-wrap:wrap;
-    
+  
 }
 .nav h2  {
     font-size: 32px;
