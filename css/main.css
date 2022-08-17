@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     height: 5504px;
-    max-width: 1600px;
+    max-width: 1440px;
     margin-left:80px;
     justify-content: center;
 }
@@ -12,10 +12,11 @@ button {
 .nav {
     font-family: 'Montserrat', sans-serif;
     height: 120px;
-    width: 1600px;
+    width: 1440px;
     display: flex;
     flex-wrap:wrap;
-  
+    justify-content: center;
+
 }
 .nav h2  {
     font-size: 32px;
@@ -29,9 +30,9 @@ button {
 
 }
 .nav h4 {
-     margin-left:33px;
-     margin-top:56px;
-     padding-right:15px;
+    margin-left:33px;
+    margin-top:56px;
+    padding-right:15px;
     font-weight: normal;
     font-family: 'Inter', sans-serif;
  }
