@@ -281,16 +281,14 @@ button {
 }
 .Reservation {
     display: flex;
-    width: 1440px;
-    
+    justify-content: center;   
 }
-.Reservation button {
+.ReservationText1 button {
     width:151px;
     height:51px;
     background-color: #0E1734;
     border-radius: 4px;
     margin-left: 238px;
-    margin-top: 13px;
     border: none;
 }
 .Reservation h5 {
@@ -302,60 +300,43 @@ button {
     font-weight:500;
     Line-height: 19px;
 }
-.ReservationText1 {
-    display: contents;
-    
-}
 .ReservationText1 h2 {
-    margin-top: 260px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    display: flex;
-    margin-left: 426px;
-   
+    justify-content: center;
+    width: 456px;
+    margin-left: 190px;
 }
-.ReservationText2 p {
+.ReservationText1 p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight:400;
+    font-weight: 400;
     color: #848FAC;
     Line-height: 27px;
     font-size: 18px;
     text-align: center;
+    height: 154px;
+    margin-left: 120px; 
 }  
-.ReservationText2 {
-  display:flex;
-}
-.ReservationText2 button {
-    display: flex;  
-    margin: 0px;
-}
 .ReservationCard {
-    margin-left:220px;
-    margin-top: 88px;
-    justify-content: center;
-    max-width: 100%;
+    margin-left:120px;
+    margin-top: 88px;  
 }
 .ReservationCard img {
     padding-right: 24px;
-
+    width: 384px;
 }
 .ReservationGrandtext {
-    display: flex;
-    width: 1600px;
-    margin-left: 120px;
+    display: flex;    
 }
 .ReservationGrandtext h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    margin-left: 120px;
-    padding-right: 120px;
-    
-
+    width: 746px; 
 }
 .Reservationliteltext p {
     font-family: 'Inter', sans-serif;
@@ -371,7 +352,7 @@ button {
 }
 .Reservationliteltext {
     display: flex;
-    margin-left: 120px;
+    
 }
 .Reservationliteltext1 {
     display: flex;
