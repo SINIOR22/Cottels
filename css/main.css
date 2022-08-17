@@ -5,7 +5,6 @@ body {
     justify-content: center;
     margin: 0px;
     padding: 0px;
-    
 }
 button {
     cursor: pointer;
@@ -67,14 +66,13 @@ button {
     height:845px;
     display: flex;
     flex-wrap: wrap;
-    height: 900px;
     max-width: 100%; 
 }
 .HeroIntro h1 {
     display: block;
     margin-top: 215px;
     margin-left: 121px;
-    padding-right:48px;
+    padding-right:120px;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
     width:587px;
@@ -120,9 +118,8 @@ button {
     background-color:skyblue;
 }
 .HeroImg {
-    justify-content: right;
+
     max-width: 100%;
-    
 }
 
 .HeroOne {
