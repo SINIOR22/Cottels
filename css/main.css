@@ -10,6 +10,10 @@ button {
     cursor: pointer;
     transition: 0.35s;
 }
+.NavTab {
+    max-width: 100%;
+   justify-content: center;
+}
 .nav {
     font-family: 'Montserrat', sans-serif;
     max-width: 100%;
@@ -54,7 +58,7 @@ button {
     border-radius: 4px;
     border:none;
     margin-top: 37px;
-    margin-left: 327px;
+    margin-left: 627px;
     cursor: pointer;
     transition: 0.35s;
 }
