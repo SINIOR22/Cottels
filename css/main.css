@@ -1,10 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    height: 5504px;
     max-width: 100%;
     justify-content: center;
     margin: 0px;
     padding: 0px;
+    margin-left: 120px;
 }
 button {
     cursor: pointer;
@@ -13,10 +13,8 @@ button {
 .nav {
     font-family: 'Montserrat', sans-serif;
     height: 120px;
-    display: flex;
-    flex-wrap:wrap;
     justify-content: center;
-    min-width: 100%;
+    display: flex;
 }
 .nav h2  {
     font-size: 32px;
@@ -67,11 +65,14 @@ button {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%; 
+    
+}
+.HeroIntro {
+    max-width: 100%;
 }
 .HeroIntro h1 {
     display: block;
     margin-top: 215px;
-    margin-left: 121px;
     padding-right:120px;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
@@ -89,7 +90,6 @@ button {
     width: 485px;
     height:81px;
     line-height:27px;
-    margin-left:121px;
     color: #848FAC;
     flex: 1 1 150px;
 }
@@ -117,11 +117,6 @@ button {
 .HeroIntro button:hover {
     background-color:skyblue;
 }
-.HeroImg {
-
-    max-width: 100%;
-}
-
 .HeroOne {
     justify-content: left;
     display: flex;
@@ -153,12 +148,13 @@ button {
     margin-top:80px;
     flex-wrap:wrap;
     width: 384px;
+    margin-left: 220px;
 }
 .aboutUs {
     display: flex;
     height: 736px;
     flex-wrap:wrap;
-    justify-content: center;
+    justify-content: left;
 }
 .aboutText h2 {
     display: flex;
@@ -218,6 +214,9 @@ button {
 }
 .Benefit {
     display: flex;
+    width: 1440px;
+    justify-content: center;
+    margin-left: 120px;
 }
 .BenefitText1 h2 {
     display: flex;
@@ -250,7 +249,7 @@ button {
 }
 .BenefitText2 img {
     display:flex;
-    margin-left:120px;
+    margin-left:220px;
     padding-top: 32px;
 }
 .BenefitText2 h2 {
