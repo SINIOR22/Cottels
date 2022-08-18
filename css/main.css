@@ -12,9 +12,9 @@ button {
 }
 .nav {
     font-family: 'Montserrat', sans-serif;
-    height: 120px;
-    justify-content: center;
+    max-width: 100%;
     display: flex;
+
 }
 .nav h2  {
     font-size: 32px;
@@ -32,6 +32,7 @@ button {
     padding-right:15px;
     font-weight: normal;
     font-family: 'Inter', sans-serif;
+    display: block;
  }
 .nav h6 {
     font-size: 16px;
@@ -44,6 +45,7 @@ button {
     margin-right: 16px;
     font-weight: normal;
     font-family: 'Inter', sans-serif;
+    display: flex;
 }
 .nav button {
     background-color: #0E1734;
