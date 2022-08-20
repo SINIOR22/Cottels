@@ -10,6 +10,9 @@ button {
     cursor: pointer;
     transition: 0.35s;
 }
+html {
+    max-width: 100%;
+}
 .NavTab {
     max-width: 100%;
    justify-content: center;
