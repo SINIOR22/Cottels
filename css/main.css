@@ -9,6 +9,7 @@ body {
 button {
     cursor: pointer;
     transition: 0.35s;
+    justify-content: center;
 }
 html {
     max-width: 100%;
@@ -76,11 +77,8 @@ html {
     max-width: 100%; 
     
 }
-.HeroIntro {
-    max-width: 100%;
-}
 .HeroIntro h1 {
-    display: block;
+    display: ;
     margin-top: 215px;
     padding-right:120px;
     font-weight: normal;
@@ -513,6 +511,8 @@ html {
     height: 444px;
     margin-top:186px;
     display: flex;
+    max-width: 100%;
+    justify-content: center;
     
 }
 .seven h2 {
