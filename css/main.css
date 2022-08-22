@@ -78,7 +78,7 @@ html {
     
 }
 .HeroIntro h1 {
-    display: ;
+    display:flex ;
     margin-top: 215px;
     padding-right:120px;
     font-weight: normal;
