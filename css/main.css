@@ -77,10 +77,14 @@ html {
     max-width: 100%; 
     
 }
+.HeroImgG {
+    justify-content: center;
+    
+}
 .HeroIntro h1 {
     display:flex ;
-    margin-top: 215px;
-    padding-right:120px;
+    /*margin-top: 215px;
+    padding-right:120px;*/
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
     width:587px;
